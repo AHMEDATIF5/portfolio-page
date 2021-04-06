@@ -1,0 +1,118 @@
+/**** Responsive Design  *****/
+@media screen and (max-width:992px) /* nav bar */
+{
+    nav ul
+    {
+        display: none;
+        margin: auto;
+        text-align: center;
+    }
+    nav ul li 
+    {
+        display: block;
+        margin-bottom: 30px;
+    }
+    nav ul a:hover
+    {
+        background-color: white;
+        color: #000;
+    }
+    nav label 
+    {
+        display: block;
+    }
+    nav .logo
+    {
+        display: block;
+    }
+    nav .wrapper
+    {
+        display: block;
+    }
+    .testi article .pic::after
+    {
+        display: none;
+    }
+    .about-area .about-box
+    {
+        margin: 0;
+        border: none;
+    }
+    .testi article
+    {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1200px)
+{
+    nav ul li
+    {
+        padding: 10px 10px;
+    }
+    nav ul
+    {
+        width: auto;
+    }
+    .about-area .about-box
+    {
+        margin: 0;
+        border: none;
+    }
+    .testi article .pic::after
+    {
+        display: none;
+    }
+    .testi article
+    {
+        width: 80%;
+    }
+    
+}
+@media screen and (max-width:900px)
+{
+    .about-area
+    {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .about-area .about-box
+    {
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .about-area .about-box .image
+    {
+        position: static;
+    }
+    .profile-desc
+    {
+        padding-left: 0;
+    }
+    .profile-desc button
+    {
+        margin-bottom: 10px;
+    }
+    .services article
+    {
+        flex-wrap: wrap;
+    }
+    .portfolio article .desc
+    {
+        width: 40%;
+    }
+    .testi article .pic
+    {
+        display: none;
+    }
+    .blog .some-blogs
+    {
+        flex-wrap: wrap;
+        justify-content: space-around
+
+    }
+    .blog .card
+    {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+}
